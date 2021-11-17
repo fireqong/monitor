@@ -1,0 +1,19 @@
+{
+    "name": "church/monitor",
+    "description": "push server status and connections to udp server.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Church\\Monitor\\": "./src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "church",
+            "email": "qiq@pvc123.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
